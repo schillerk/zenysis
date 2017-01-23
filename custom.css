@@ -1,0 +1,533 @@
+.number {
+  color: black;
+  font-family: 'Lobster';
+  font-size: 150px;
+  position: absolute;
+  bottom: 75px;
+  left: 90px;
+  border: 5px solid black;
+  border-radius: 3px;
+  line-height: 200px;
+}
+
+.number-1 {
+  padding: 0px 97px 0px 92px;
+}
+
+.number-2 {
+  padding: 0px 83px 0px 79px;
+}
+
+.number-3 {
+  padding: 0px 83px 0px 77px;
+}
+
+.paragraph {
+  width: 70%;
+}
+
+.header {
+  position: absolute;
+  top: 130px;
+  left: 90px;
+  width: 70%;
+}
+
+.background-image-1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url(pictures/picture1-vibrance3.jpg) no-repeat center center fixed;
+  opacity: .4;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background-image-2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url(pictures/picture2-vibrance.jpg) no-repeat center center fixed;
+  opacity: .4;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background-image-3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: url(pictures/picture3-vibrance.jpg) no-repeat center center fixed;
+  opacity: .4;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.rainbow-header {
+  background-image: linear-gradient(to right, rgb(249, 155, 250), rgb(105, 230, 228), rgb(255, 253, 141));
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  opacity: .9;
+  box-shadow: 0px -3px 20px 5px #333;
+}
+
+#gradient-test {
+  background-image: linear-gradient(to right, rgb(210, 122, 208), rgb(78, 175, 173), rgb(224, 222, 77) 100%);
+  width: 214px;
+  height: 54px;
+  position: absolute;
+  bottom: -4px;
+  left: -4px;
+  border-radius: 3px;
+}
+
+.next-button-inner-text-test {
+  position: relative;
+  width: 150px;
+  top: 7px;
+  left: 36px;
+}
+
+.next-button-test:hover #next-button-inner-test {
+  background: transparent;
+  color: white;
+  border: 3px solid white;
+}
+
+#next-button-inner-test {
+  border-color: transparent;
+  border: 3px solid transparent;
+  position: absolute;
+  background: #333;
+  color: white;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  transition: .4s;
+}
+
+.next-button-test {
+  font-family: 'Coda', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  letter-spacing: 1px;
+  bottom: 60px;
+  right: 100px;
+  border-radius: 3px;
+  -webkit-transition: .4s; /* Safari */
+  transition: .4s;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 600;
+  font-family: 'Coda', sans-serif;
+  color: black;
+  font-size: calc(2vw + 30px);
+  line-height: calc(2vw + 35px);
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 500;
+  font-family: 'Coda', sans-serif;
+  color: black;
+  font-size: calc(2vw + 30px);
+  line-height: calc(2vw + 35px);
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(.5vw + 12px);
+  line-height: calc(.6vw + 16px);
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+h6 {
+  margin: 0;
+  font-size: 17px;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.careers-header {
+  text-align: center;
+  width: 70%;
+  margin: 150px auto 60px auto;
+}
+
+.careers-header-2 {
+  text-align: center;
+  width: 70%;
+  margin: -20px auto 60px auto;
+}
+
+.title-test {
+  top: 21px;
+  left: 30px;
+  position: absolute;
+  width: 100%;
+  z-index: 12;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.title-inner-test {
+  top: 30px;
+  right: 30px;
+  position: absolute;
+  width: 100%;
+  z-index: 12;
+  text-align: right;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.title-menu-test {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 6px;
+  padding-bottom: 7px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  -webkit-transition: .4s; /* Safari */
+  transition: .4s;
+}
+
+.title-menu-test:after {
+  content: '';
+  display: block;
+  width: 0;
+  margin: auto;
+  position: relative;
+  padding-bottom: 7px;
+  border-bottom: 2px solid transparent;
+  transition: width .2s cubic-bezier(0,.35,.65,1) !important;
+}
+
+.title-menu-test:hover {
+  color: black;
+  transition: color .2s cubic-bezier(0,.35,.65,1);
+}
+
+.title-menu-test:hover:after{
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+body {
+  background: white;
+}
+
+a {
+  text-decoration: none;
+  color: none;
+}
+
+/*from https://codepen.io/designcouch/pen/Atyop*/
+#nav-icon2 {
+  z-index: 100;
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  top: 22px;
+  right: 25px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon2 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 50%;
+  background: white;
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+#nav-icon2 span:nth-child(even) {
+  left: 50%;
+  border-radius: 0 2px 2px 0;
+}
+
+#nav-icon2 span:nth-child(odd) {
+  left:0px;
+  border-radius: 2px 0 0 2px;
+}
+
+#nav-icon2 span:nth-child(1), #nav-icon2 span:nth-child(2) {
+  top: 0px;
+}
+
+#nav-icon2 span:nth-child(3), #nav-icon2 span:nth-child(4) {
+  top: 10px;
+}
+
+#nav-icon2 span:nth-child(5), #nav-icon2 span:nth-child(6) {
+  top: 20px;
+}
+
+#nav-icon2.open span:nth-child(1),#nav-icon2.open span:nth-child(6) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon2.open span:nth-child(2),#nav-icon2.open span:nth-child(5) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon2.open span:nth-child(1) {
+  left: 3px;
+  top: 6px;
+}
+
+#nav-icon2.open span:nth-child(2) {
+  left: calc(50% - 3px);
+  top: 6px;
+}
+
+#nav-icon2.open span:nth-child(3) {
+  left: -50%;
+  opacity: 0;
+}
+
+#nav-icon2.open span:nth-child(4) {
+  left: 100%;
+  opacity: 0;
+}
+
+#nav-icon2.open span:nth-child(5) {
+  left: 3px;
+  top: 15px;
+}
+
+#nav-icon2.open span:nth-child(6) {
+  left: calc(50% - 3px);
+  top: 15px;
+}
+
+/*https://codepen.io/vladaoleynik/pen/vExKxJ*/
+input{
+  display:none;
+}
+
+.lower label:hover{
+  cursor:pointer;
+}
+
+.overlay{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: 10;
+}
+
+.overlay label{
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  /*background: url('http://tympanus.net/Development/FullscreenOverlayStyles/img/cross.png');*/
+  z-index: 100;
+  cursor:pointer;
+}
+
+.overlay nav {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  font-size: 54px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.overlay ul {
+  display: inline-block;
+  height: 100%;
+}
+
+ul, menu, dir {
+    list-style-type: none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.overlay ul li a {
+  display: block;
+  text-decoration:none;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.lower~.overlay-hugeinc{
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+  transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+#op:checked~.overlay-hugeinc{
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.overlay-hugeinc nav {
+  -moz-perspective: 300px;
+}
+
+.overlay-hugeinc nav ul {
+  opacity: 0.4;
+  -webkit-transform: translateY(-25%) rotateX(35deg);
+  transform: translateY(-25%) rotateX(35deg);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+#op:checked~.overlay-hugeinc nav ul {
+  opacity: 1;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+#op:not(:checked)~.overlay-hugeinc nav ul {
+  -webkit-transform: translateY(25%) rotateX(-35deg);
+  transform: translateY(25%) rotateX(-35deg);
+}
+
+.menu {
+  font-size: calc(2vw + 30px);
+  line-height: calc(2vw + 55px);
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: calc(18vw + 100px);
+  border-bottom: calc(.2vw + 1px) solid transparent;
+  z-index: 2;
+}
+
+.menu:after {
+  content: '';
+  display: block;
+  width: 0;
+  margin: auto;
+  border-bottom: calc(.2vw + 1px) solid transparent;
+  transition: width .4s cubic-bezier(0,.15,.25,1) !important;
+}
+
+.menu:hover {
+  color: #F5F8FA !important;
+  transition: color .4s cubic-bezier(0,.15,.25,1);
+}
+
+.menu:hover:after{
+  border-bottom: calc(.2vw + 1px) solid #F5F8FA;
+  width: calc(18vw + 90px);
+}
+
+#code {
+ color: #4B5B67;
+}
+
+#projects{
+  color: #667886;
+}
+
+#writing {
+  color: #899AA8;
+}
+
+#contact {
+  color: #A7B6C2;
+}
+
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(.6vw + 15px);
+  line-height: calc(.6vw + 20px);
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.career-text-mid {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.career-text {
+  text-align: right;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(.5vw + 9px);
+  line-height: calc(.6vw + 16px);
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 120px;
+}
+
+.photos {
+  margin-bottom: 80px;
+}
