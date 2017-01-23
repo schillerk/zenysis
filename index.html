@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <head>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/pure-min.css" integrity="sha384-CCTZv2q9I9m3UOxRLaJneXrrqKwUNOzZ6NGEUMwHtShDJ+nCoiXJCAgi05KfkLGY" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/grids-responsive-min.css">
   <link href="custom.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Coda:200,300,400,600,700,900" rel="stylesheet">
  <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
   <img src="pictures/white-map-crop.jpg" style="opacity: .15; width: 70%; position: absolute; bottom: 0;">
-  <div class="rainbow-header">
-    <div class="title-test">
-      ZENYSIS
-    </div>
+  <!-- from https://codepen.io/designcouch/pen/Atyop -->
+  <!-- and https://codepen.io/vladaoleynik/pen/vExKxJ -->
+  <input type="checkbox" id="op"></input>
+  <div class="lower">
+    <label for="op">
+      <div id="nav-icon2">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </label>
+  </div>
+  <div class="overlay overlay-hugeinc">
+    <label for="op"></label>
+    <nav>
+      <ul>
+        <li><a href="index2.html" class="menu" id="home">Home</a></li>
+        <li><a href="careers.html" class="menu" id="product">Product</a></li>
+        <li><a href="careers.html" class="menu" id="capabilities">Capabilities</a></li>
+        <li><a href="about.html" class="menu" id="implementation">Implementation</a></li>
+        <li><a href="careers.html" class="menu" id="careers">Careers</a></li>
+      </ul>
+    </nav>
+  </div>
+   <div class="rainbow-header">
+    <a href="index.html">
+      <div class="title-test">
+        ZENYSIS
+      </div>
+    </a>
     <div class="title-inner-test">
-      <div class="title-menu-test"><h6>Home</h6></div>
-      <div class="title-menu-test"><h6>Product</h6></div>
-      <div class="title-menu-test"><h6>Capabiities</h6></div>
-      <div class="title-menu-test"><h6>Implementation</h6></div>
-      <div class="title-menu-test"><h6>Careers</h6></div>
+      <div class="title-menu-test"><a href="index.html"><h6>Home</h6></a></div>
+      <div class="title-menu-test"><a href="product.html"><h6>Product</h6></a></div>
+      <div class="title-menu-test"><a href="impact.html"><h6>Impact</h6></a></div>
+      <div class="title-menu-test"><a href="partnership.html"><h6>Partnership<h6></a></div>
+      <div class="title-menu-test"><a href="careers.html"><h6>Careers</h6></a></div>
     </div>
   </div>
   <div class="header">
@@ -30,7 +57,7 @@
       Through Zenysis, decision makers can view and analyze data with unprecedented power.
     </h5>
   </div>
-  <a href="test.html">
+  <a href="product.html">
     <div class="next-button-test">
       <div id="gradient-test">
       </div>
